@@ -1,0 +1,59 @@
+{
+  "name": "Sumanth Reddy",
+  "title": "AI Engineer | Generative AI Engineer | LLM Applications | RAG Systems | Workflow Automation",
+  "summary": "Building AI-powered applications using LLMs, RAG architectures, AI Agents, Workflow Automation, and Machine Learning to solve real-world business problems.",
+  "email": "sumanthreddyncc@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/sumanth-reddy-840472272/",
+  "github": "https://github.com/SumanthReddy2001",
+  "location": "India",
+  "contact": "You can reach Sumanth through email, LinkedIn, GitHub, or WhatsApp for AI engineering opportunities.",
+  "skills": [
+    "LLMs",
+    "Prompt Engineering",
+    "RAG",
+    "AI Agents",
+    "LangChain",
+    "LangGraph",
+    "Python",
+    "SQL",
+    "FastAPI",
+    "Pinecone",
+    "n8n",
+    "AWS",
+    "Oracle Cloud",
+    "Git",
+    "Docker",
+    "VS Code"
+  ],
+  "experience": [
+    {
+      "company": "Anubavam Technology",
+      "role": "AI Engineer",
+      "duration": "2023 - Present",
+      "highlights": [
+        "Designed and developed LLM-powered applications using RAG architectures.",
+        "Built enterprise chatbot solutions using LangChain, LangGraph, and Pinecone.",
+        "Developed AI-powered document processing and knowledge retrieval systems."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "LLM-Powered Multi-Tenant RAG Chatbot",
+      "tech": ["LangChain", "LangGraph", "Pinecone", "Python", "n8n"],
+      "description": "Built a scalable multi-tenant chatbot system using RAG architecture with PDF ingestion, embedding generation, and semantic search."
+    },
+    {
+      "title": "AI-Powered Meeting Minutes Generator",
+      "tech": ["FastAPI", "AWS", "OpenAI API"],
+      "description": "Developed a full-stack system to generate structured Minutes of Meeting from raw meeting transcripts using LLMs."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Sharp Tester Award",
+      "issuer": "Anubavam Technology",
+      "description": "Recognized for quality, attention to detail, and reliability in AI application testing and validation."
+    }
+  ]
+}

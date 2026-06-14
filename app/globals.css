@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222 47% 5%;
+  --foreground: 210 40% 98%;
+  --card: 222 47% 8%;
+  --card-foreground: 210 40% 98%;
+  --popover: 222 47% 8%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 217 91% 60%;
+  --primary-foreground: 222 47% 5%;
+  --secondary: 262 83% 58%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 217 33% 14%;
+  --muted-foreground: 215 20% 70%;
+  --accent: 262 83% 58%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 217 33% 18%;
+  --input: 217 33% 18%;
+  --ring: 217 91% 60%;
+  --radius: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  background:
+    radial-gradient(circle at top left, rgba(59, 130, 246, 0.18), transparent 30%),
+    radial-gradient(circle at top right, rgba(168, 85, 247, 0.15), transparent 24%),
+    linear-gradient(180deg, #050816 0%, #070b14 48%, #04050a 100%);
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.35);
+  color: white;
+}
+
+.glass {
+  background: rgba(7, 11, 20, 0.72);
+  backdrop-filter: blur(22px);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  box-shadow: 0 10px 40px rgba(2, 6, 23, 0.45);
+}
+
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #60a5fa, #a855f7, #22d3ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.shadow-glow {
+  box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.1), 0 0 60px rgba(59, 130, 246, 0.12);
+}
+
+.prose-invert {
+  --tw-prose-body: rgb(226 232 240);
+  --tw-prose-headings: white;
+  --tw-prose-links: rgb(96 165 250);
+  --tw-prose-bold: white;
+  --tw-prose-bullets: rgb(148 163 184);
+  --tw-prose-hr: rgb(51 65 85);
+  --tw-prose-quotes: rgb(226 232 240);
+}
+
+.glass-card {
+  @apply glass rounded-3xl;
+}
